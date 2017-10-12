@@ -17,10 +17,10 @@ class FTPFile:
 NAME_POSITION = 7
 DATE_POSITION = 2
 # Server host and credentials. You can export to other files, or env variables
-HOST = 'ftp.aphelion.gq'
-HTTP_HOST = 'http://dd.atelierdunoir.org/'
-USER = 'eidun@dd.atelierdunoir.org'
-PASS = 'password123'
+HOST = 'ftp.example.com'
+HTTP_HOST = 'http://example.com'
+USER = 'ftp_username'
+PASS = 'ftp_password'
 # Supported file types. More can be added to this list
 FORMATS = ['zip', 'rar']
 
